@@ -24,6 +24,7 @@ const LiveChat = () => {
 
     return (
         <>
+        <div>Hi</div>
         <div className='ml-2 p-4 border border-gray-950 w-full h-[550px] bg-slate-100 rounded-lg overflow-y-auto flex flex-col-reverse'>
             <div>
                 {[...ChatMessages].slice().reverse().map((c, i) => (
